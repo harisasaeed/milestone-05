@@ -1,0 +1,105 @@
+/* style.css */
+
+/* Basic styling for the body */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f0f4f8;
+  }
+  
+  /* Center the heading */
+  h1 {
+    text-align: center;
+    color: #25332c;
+  }
+  
+  /* Form styling */
+  form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #f0f4f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    padding: 20px;
+  }
+  
+  /* Fieldset styling */
+  fieldset {
+    border: 2px solid #0b471d;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+  }
+  
+  /* Legend styling */
+  legend {
+    font-weight: bold;
+    text-align: left;
+    color: #162e25;
+  }
+  
+  /* Label styling */
+  label {
+    display: block;
+    margin-top: 10px;
+    color: #162e25;
+  }
+  
+  /* Input and textarea styling */
+  input, textarea {
+    width: calc(100% - 2px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #0a5e1c;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Button styling */
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #09421c;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  button:hover {
+    background-color: #296137;
+  }
+  
+  /* Resume output styling */
+  #resumeOutput {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #046333;
+    border-radius: 8px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+  }
+  
+  /* Resume output heading styling */
+  #resumeOutput h2 {
+    color: #2c3e50;
+  }
+  
+  /* Profile picture styling */
+  .profilePicture {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #03351c;
+    box-shadow: 0 4px 8px rgba(16, 129, 72, 0.5);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
